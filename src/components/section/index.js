@@ -7,7 +7,7 @@ import {
 const Section = ({ data }) => (
   <Row className="row-eq-height">
     { data.sort(
-      (a, b) => a.order - b.order
+      (a, b) => a.node.frontmatter.order - b.node.frontmatter.order
       ).map(value => (
         <Col key={value.id} className="mb-2" lg="12" md="12">
           <Card body className='shadow-sm bg-white h-100'>
