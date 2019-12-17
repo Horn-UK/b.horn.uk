@@ -1,11 +1,17 @@
 import React from 'react'
 import { Jumbotron, Container} from 'reactstrap'
 import { graphql } from 'gatsby'
+import { Helmet } from 'react-helmet' 
 import Layout from '../components/layout'
 import SectionBox from '../components/section'
 
 const IndexPage = ({ data }) => (
   <Layout>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>{data.site.siteMetadata.title}</title>
+      <link rel="canonical" href={data.site.siteMetadata.siteUrl} />
+    </Helmet>
     <Container>
       <Jumbotron>
         <h1 className="display-3">{data.site.siteMetadata.title}</h1>
@@ -22,6 +28,7 @@ export const query = graphql`
     site {
       siteMetadata {
         title
+        siteUrl
       }
     },
 
