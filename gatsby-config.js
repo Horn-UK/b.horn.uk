@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Beowulf Horn',
+    title: 'B Horn',
     siteUrl: 'https://b.horn.uk/'
   },
   plugins: [
