@@ -1,5 +1,5 @@
 ---
-title: Presentations
+title: Talks
 tag: body
 order: 3
 ---
