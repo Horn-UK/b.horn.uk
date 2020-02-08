@@ -1,7 +1,7 @@
 ---
 title: Hiring
 tag: body
-order: 6
+order: 8
 ---
 
 Currently UK based, but I'm open to remote work or relocation to mainland Europe, Ireland, Canada or South Africa.

@@ -1,7 +1,7 @@
 ---
 title: Travel
 tag: body
-order: 4
+order: 6
 ---
 
 I've travelled to over 30 countries, doing things such as:

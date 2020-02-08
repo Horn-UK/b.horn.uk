@@ -1,6 +1,6 @@
 ---
 title: Contact
 tag: body
-order: 5
+order: 7
 ---
 Email: `b+site AT horn.uk`
