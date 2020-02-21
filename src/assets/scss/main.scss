@@ -1,0 +1,31 @@
+@import './libs/_vars';
+@import './libs/_functions.scss';
+@import './libs/_skel';
+
+body, .body {
+    background-color: _palette(bg1);
+    @include vendor('background-image', (
+        'url("../images/overlay.png")',
+        'linear-gradient(180deg, #{_palette(bg1)} 0%, #{_palette(bg2) 100%})',
+    ));
+    color: _palette(fg);
+}
+
+.container>.container {
+    background-color: _palette(cbg);
+    border-radius: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.jumbotron {
+    background-color: _palette(ubg);
+}
+
+.card-header, .card-body, .card {
+    background-color: _palette(ubg);
+}
+
+a,a:hover {
+    color: _palette(ln);
+}

@@ -5,6 +5,8 @@ import { Helmet } from 'react-helmet'
 import Layout from '../components/layout'
 import SectionBox from '../components/section'
 
+import '../assets/scss/main.scss'
+
 const IndexPage = ({ data }) => (
   <Layout>
     <Helmet>

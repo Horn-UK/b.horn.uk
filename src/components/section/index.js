@@ -10,7 +10,7 @@ const Section = ({ data }) => (
       (a, b) => a.node.frontmatter.order - b.node.frontmatter.order
       ).map(value => (
         <Col key={value.id} className="mb-2" lg="12" md="12">
-          <Card className='shadow-sm bg-white h-100'>
+          <Card>
             <CardHeader>
               {value.node.frontmatter.title}
             </CardHeader>
